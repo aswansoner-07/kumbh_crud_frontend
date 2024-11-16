@@ -1,0 +1,99 @@
+
+.crud-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .crud-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #4caf50;
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .form-container input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .crud-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .crud-button:hover {
+    background-color: #66bb6a;
+  }
+  
+  .records-container {
+    margin-top: 20px;
+  }
+  
+  .records-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .records-table th,
+  .records-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .records-table th {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .records-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .crud-action-button {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .crud-action-button.edit {
+    background-color: #2196f3;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+  }
+  
+  .crud-action-button.edit:hover {
+    background-color: #64b5f6;
+  }
+  
+  .crud-action-button.delete {
+    background-color: #f44336;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+  }
+  
+  .crud-action-button.delete:hover {
+    background-color: #ef9a9a;
+  }
+  
