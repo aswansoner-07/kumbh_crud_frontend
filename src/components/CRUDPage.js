@@ -9,7 +9,7 @@ const CRUDPage = () => {
   const [formData, setFormData] = useState({ name: "", email: "" });
   const [editingId, setEditingId] = useState(null);
 
-  const API_URL = "http://localhost:5000/api/records";
+  const API_URL = "https://kumbh-crup-backend.onrender.com/api/records";
 
   // Fetch records from MongoDB
   useEffect(() => {
