@@ -15,7 +15,7 @@ const Landingpage = () => {
           Manage Records
         </Link>
         <a
-          href="https://github.com/"
+          href="https://github.com/aswansoner-07"
           target="_blank"
           rel="noopener noreferrer"
           className="home-button"
